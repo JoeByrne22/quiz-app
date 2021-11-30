@@ -10,24 +10,25 @@
     </head>
     <body>
         <div class="quiz-container">
-            <h1>Quiz</h1>
+            <h2 id="question"></h2>
             <li class="list-item">
-                <input type="checkbox" id="q1"/>
-                <label for="">Quesiton 1</label>
+                <input type="radio" id="a"/>
+                <label for="a" id="a_text"></label>
             </li>
             <li class="list-item">
-                <input type="checkbox" id="q2"/>
-                <label for="">Quesiton 2</label>
+                <input type="radio" id="b"/>
+                <label for="b" id="b_text"></label>
             </li>
             <li class="list-item">
-                <input type="checkbox" id="q3"/>
-                <label for="">Quesiton 3</label>
+                <input type="radio" id="c"/>
+                <label for="c" id="c_text"></label>
             </li>
             <li class="list-item">
-                <input type="checkbox" id="q4"/>
-                <label for="">Quesiton 4</label>
+                <input type="radio" id="d"/>
+                <label for="d" id="d_text"></label>
             </li>
         </div>
+        <button onClick="loadQuiz()">Submit</button>
         
         <script src="script.js" async defer></script>
     </body>
