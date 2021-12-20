@@ -1,3 +1,40 @@
-h1 {
-    color: red;
+body {
+    background-color: #f3f2f2;
+    font-family: sans-serif;
+}
+.quiz-box {
+    width: 400px;
+    margin: auto;
+}
+
+.quiz-container {
+    padding: 15px 25px 40px 25px; 
+    background-color: white;   
+}
+
+.list-item {
+    list-style-type: none;
+    display: flex;
+    margin: 0 0 5px 5px;
+}
+
+label {
+    padding-left: 5px;
+}
+
+#submit {
+    width: 400px;
+    padding: 30px 50px;
+    margin: auto;
+    background-color: #d1a1e5;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
+
+#submit:hover {
+    transition: .1s;
+    background-color:purple;
+    /* color: #d1a1e5; */
 }

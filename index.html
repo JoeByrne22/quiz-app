@@ -9,27 +9,29 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <div class="quiz-container">
+        <div class="quiz-box">
+             <div class="quiz-container">
             <h2 id="question"></h2>
             <li class="list-item">
-                <input type="radio" id="a"/>
+                <input type="radio" id="a" name="answer" class="answer"/>
                 <label for="a" id="a_text"></label>
             </li>
             <li class="list-item">
-                <input type="radio" id="b"/>
+                <input type="radio" id="b" name="answer" class="answer"/>
                 <label for="b" id="b_text"></label>
             </li>
             <li class="list-item">
-                <input type="radio" id="c"/>
+                <input type="radio" id="c" name="answer" class="answer"/>
                 <label for="c" id="c_text"></label>
             </li>
             <li class="list-item">
-                <input type="radio" id="d"/>
+                <input type="radio" id="d" name="answer" class="answer"/>
                 <label for="d" id="d_text"></label>
             </li>
         </div>
-        <button onClick="loadQuiz()">Submit</button>
-        
+        <button id="submit">Submit</button>
+        </div>
+       
         <script src="script.js" async defer></script>
     </body>
 </html>
